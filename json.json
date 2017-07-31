@@ -1,0 +1,35 @@
+ //IIFE loads JSON file and returns the array of objects.
+//Global variable augmented by the iifes is "chatty"
+//The json file will have five messages in it.
+/*Messages
+
+When the page is first loaded, you must load 5 messages from a local JSON file 
+and pre-fill a message area <div> below the input field that will also hold all new messages as they get created.
+When the user presses the return key in the message field, the new message should be inserted into the message area.
+The message should have a button displayed after it with the text "Delete" inside of it.
+When the delete button next to a message is clicked, only that message should be removed from the DOM.*/
+
+{
+	"messages":[
+	{
+		"text": "Why you stuck up...",
+		"textNum": "1"
+	},
+	{
+		"text": "...half-witted..",
+		"textNum": "2"
+	},
+	{
+		"text": "...scruffy-looking...",
+		"textNum": "3"
+	},
+	{
+		"text": "...Nerfherder!",
+		"textNum": "4" 
+	},
+	{
+		"text": "Han: Who's scruffy looking?",
+		"textNum": "5"
+	}
+	]
+}
