@@ -1,0 +1,61 @@
+h1 {
+  font-family: 'Diplomata SC';
+  font-size: 36px;
+  color: yellow;
+  text-align: center;
+  padding: 0px 82px 0px 0px;
+/*   margin: 0px;  */
+}
+
+body {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1365534/Screen%20Shot%202017-08-01%20at%2010.20.01%20AM.png);
+  background-size: cover;
+  /*   background-attachment: fixed; */
+  /* margin: 22px 1px; */
+  padding: 22px 1px;
+}
+
+
+
+/* h4 {
+  color: white;
+  padding: 11px 12px 0px 11px;
+} */
+
+button {
+  margin: 0px 0px 0px 12px
+}
+
+#nav-container {
+  padding: 12px;
+}
+
+#textArea {
+  width: 440px;
+  margin: 3px 22px;
+  padding: 3px 3px 2px 3px;
+  /* font-size: 1em; */
+}
+
+#clear-messagen {
+  padding: 3px 6px 2px 22px;
+  font-size: 1em;
+}
+
+#msgHolder {
+  color: white; 
+  padding: 5px 4px 0px 22px;
+  margin: 32px 33px;
+  width: 890px;
+  height: 500px;
+  border: 5px solid #cccccc;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.3em;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1365534/R2D2Crop3.jpeg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  overflow-y: scroll;
+  overflow: auto;
+  /*   opacity: 0.5; */
+}
