@@ -9,6 +9,18 @@
 
   // let ridOf = this.parentNode;
   messageBox.innerHTML= "";
+ 
+  console.log(messageBox.value);
+  
+  
+  
+  // if (messageBox != "" ) {
+    clearAll.disabled = true;
+  
+  // }
+
+
+
   // document.innerHTML = "";
 }
 
