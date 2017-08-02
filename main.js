@@ -13,5 +13,7 @@ keypress.addEventListener("keypress", function (event) {
     if (key === 13) { // 13 is enter
       alert("It works")
       // code for enter
+       clearAll.disabled = false;
     }
+     
 });
